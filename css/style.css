@@ -1,0 +1,201 @@
+/*partie creé par moi*/
+body {
+	margin :0;
+	background-attachment: fixed;
+	background-size : 100%;
+	background-repeat : no-repeat;
+	background-color: #eaebed;
+ 	font-family: 'Orbitron', sans-serif;	
+}
+nav {
+	display: block;
+    text-align:  center;
+    font-size: 2vw; 
+}
+h1 {
+  
+	size : 1vw;
+	color : #ffffff;
+	font-size : 5vw;
+	text-align : center;
+	padding : 2vw;
+    padding-bottom: 5vw;
+    background-image :url(https://image.noelshack.com/fichiers/2017/44/6/1509803772-sans-titre.png) ;
+    margin : 0vw;
+    font-family: 'Orbitron', sans-serif;
+}
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+	color : #ffffff;
+}
+.nav1 {
+	position: relative;
+  	bottom : 3vw;
+  	background-color: rgba(0, 0, 0, 0.9);
+  	padding-bottom: 5;
+}
+.nav2 {
+	font-size :  3vw;
+  	background-color : #111111 ;
+  	position: absolute;
+  	bottom: 0;
+  	width:100%;
+}
+.icon {
+  	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition: all 1s ease-in-out;
+  	-ms-transition: all 1s ease-in-out;
+  	-o-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
+}
+.icon:hover {
+  	-webkit-opacity: 0.25;
+  	-moz-opacity: 0.25;
+  	opacity: 0.25;
+} 
+
+.texte {
+  	margin-top: 2%;
+  	margin-right: 5vw ;
+  	margin-left:  5vw;
+  	background-color: #ffffff;
+}
+
+.textnav{
+  	padding-right: 2vw;
+  	padding-left: 2vw;
+}
+.imgnav{
+  	padding-right: 8vw;
+  	padding-left: 8vw;
+}
+.resize {
+    width:20vw;
+    height: auto;
+}
+
+.div1 {
+	margin: 2vw;
+ 	padding:1vw; 
+ 	height: 20vw;
+	background-color: #fff;
+}
+.div2 {
+	float:left;
+	width:49.5%;
+	height:100% ;
+}
+.div3{
+	float:right;
+	width:49.5%;
+	height:100% ;
+	margin:0;
+	padding:0;
+}
+.r{
+	height: 100%;
+}
+.div4{
+	float:right;
+	height:90%;
+	width:50%;
+	margin:1vw;
+}
+.divli{
+	margin : 0.3vw;
+}
+.divtitre{
+	margin-left:1vw
+}
+.config1{
+	margin: 2vw;
+ 	padding:1vw; 
+ 	height: 15vw;
+	background-color: #fff;
+}
+.config2{
+	float:left;
+	width:24%;
+	height:100% ;
+}
+.config5{
+	margin-left:1vw
+}
+
+
+
+/*partie trouvée sur internet et modifié pour correspondre à mes attentes*/
+
+.cf:before,
+.cf:after {
+  content:"";
+  display:table;
+}
+.cf:after {
+  clear:both;
+}
+.droite {
+  float:right;
+}
+ 
+.oModal {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+ 
+.oModal:target {
+  opacity:1;
+  pointer-events: auto;
+}
+ 
+.oModal:target > div {
+  margin: 10% auto;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+ 
+.oModal > div {
+  max-width: 600px;
+  position: relative;
+  margin: 1% auto;
+  padding: 8px 8px 8px 8px;
+  border-radius: 5px;
+  background: rgba(192, 192, 192, 0.8);
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+ 
+.oModal > div header,.oModal > div footer {
+  border-bottom: 1px rgba(192, 192, 192, 0.8);
+  border-radius: 5px 5px 0 0;
+}
+.oModal .footer {
+  border:none;
+  border-top: 1px rgba(192, 192, 192, 0.8);
+  border-radius: 0 0 5px 5px;
+}
+ 
+.oModal > div h2 {
+  margin:0;
+}
+ 
+.oModal > div .btn {
+  float:right;
+}
+ 
+.oModal > div section,.oModal > div > header, .oModal > div > footer {
+  padding:15px;
+}
